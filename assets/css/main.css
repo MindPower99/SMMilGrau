@@ -1,12 +1,37 @@
-	/* Footer */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html,body {height:100%;}
+
+	/* ======================================= Body =========================================== */
+
+	.navbar {
+		position: fixed;
+		width: 100%;
+	}
+
+	a {
+		
+		text-align: center;
+	}
+
+	.container {
+		min-height:100%;
+		position: relative;
+		width: 800px;
+	}
+
+	/* ======================================= Footer ============================================ */
 
 	.footer {
 		padding: 4rem 0 2rem 0 ;
 		background: #000;
 		text-align: center;
 		background-color: #424346;
-		bottom: 0px;
-		position: fixed;
+		margin-bottom: 0px;
+		position: absolute;
 		width: 100%;
 	}
 
